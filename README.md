@@ -1,2 +1,4 @@
 # AcademicPaper
-My template in R Markdown for an academic paper
+
+This is my R Markdown template for an academic paper. 
+

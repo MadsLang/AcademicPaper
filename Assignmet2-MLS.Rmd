@@ -1,0 +1,98 @@
+---
+title: 'Assignment 2: Interpreting Quantitative Findings'
+subtitle: |
+  | 
+  | University of Glasgow
+  | `r source("scripts/utils.R")`
+  | Student ID: 2819052
+  | Course: Quantitative Methods
+  | Number of words: `r RmdWords("Assignmet2-MLS.Rmd")$num_words`
+output:
+  pdf_document:
+    keep_tex: yes
+    latex_engine: pdflatex
+    number_sections: yes
+    citation_package: natbib
+header-includes:
+- \usepackage{amsmath}
+- \usepackage{booktabs}
+- \usepackage{floatrow}
+- \floatsetup[figure]{capposition=top}
+bibliography: references.bib 
+biblio-style: apalike
+link-citations: yes
+nocite: '*'
+---
+
+```{r setup, include=FALSE}
+source("scripts/config.R")
+```
+
+
+\pagebreak
+<!-- TC:ignore -->
+```{=latex}
+\setcounter{tocdepth}{2}
+\tableofcontents
+```
+<!-- TC:endignore --> 
+
+\pagebreak
+
+# Introduction
+<!-- Word count: approx. 400  -->
+<!-- Look at the model in part 2 below. Based on this state a research question and a hypothesis. Remember a hypothesis needs at least two variables. -->
+
+It is possible to add citations to your arguments [@R-base]. 
+
+
+
+
+<!--  \pagebreak -->
+# Data and method
+<!-- Word count: approx. 800 -->
+<!-- In this section your goal is to demonstrate that you can describe data and that you understand research design and data collection. -->
+
+## Sample and Data Collection
+
+<!-- TC:ignore -->
+```{r echo = FALSE, results='asis'}
+sampling_table_categorical()
+sampling_table_numerical()
+```
+<!-- TC:endignore -->
+
+
+
+## Dependent and Independent Variables
+
+<!-- TC:ignore -->
+```{r echo = FALSE, fig.cap="Scatterplot of Income and Sex"}
+outcome_var_plot()
+```
+<!-- TC:endignore -->
+
+
+<!--  \pagebreak -->
+# Results and discussion
+<!-- Word count: approx. 1300 -->
+<!-- In this section your goal is to demonstrate that you can interpret quantitative results. Additional credit is available if you are able to relate these findings to social science theories or if you can put the findings in context. -->
+
+
+Here comes the regression.
+
+<!-- TC:ignore -->
+```{r, echo=FALSE, results='asis'}
+source("scripts/regression.R")
+```
+<!-- TC:endignore -->
+
+
+<!-- \pagebreak -->
+# Conclusion
+<!-- Word count: approx. 500 -->
+<!-- Clearly state your findings. Do the findings raise any questions for future research? -->
+
+\pagebreak
+
+<!-- TC:ignore -->
