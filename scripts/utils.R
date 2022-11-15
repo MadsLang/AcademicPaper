@@ -5,7 +5,7 @@ theme_mls <- function(){
       text = element_text(size=10, family="LM Roman 10")
     )
 
-  my_colors <- c("#e1287e","#242c44", "#081693", "#f34f85", "#745399",
+  my_colors <- c("#242c44", "#e1287e", "#081693", "#f34f85", "#745399",
             "#848ca4")
 
   return(

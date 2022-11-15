@@ -5,8 +5,6 @@ model <- lm(
   data = nilt
 )
 
-summary(model)
-
 # Set name of variables
 cov_labels <-c(
   'Sex: Female (ref.: Male)',
@@ -26,9 +24,11 @@ cov_labels <-c(
 stargazer(
   model,
   header=FALSE,
-  title = "Regression results",
+  summary=TRUE,
+  title="Regression results",
   covariate.labels = cov_labels,
   font.size = "small",
   dep.var.caption  = "Dependent Variable",
-  dep.var.labels   = "Annual Personal Income (GBP)"
+  dep.var.labels   = "Annual Personal Income (GBP)",
+  table.placement = "H"
 )

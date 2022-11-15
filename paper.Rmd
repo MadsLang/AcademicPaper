@@ -6,20 +6,20 @@ subtitle: |
   | `r source("scripts/utils.R")`
   | Student ID: 2819052
   | Course: Quantitative Methods
-  | Number of words: `r RmdWords("Assignmet2-MLS.Rmd")$num_words`
+  | Number of words: `r RmdWords("paper.Rmd")$num_words`
 output:
   pdf_document:
     keep_tex: yes
     latex_engine: pdflatex
     number_sections: yes
-    citation_package: natbib
 header-includes:
 - \usepackage{amsmath}
 - \usepackage{booktabs}
 - \usepackage{floatrow}
 - \floatsetup[figure]{capposition=top}
+- \floatsetup[table]{capposition=top}
 bibliography: references.bib 
-biblio-style: apalike
+csl: chicago-author-date
 link-citations: yes
 nocite: '*'
 ---
@@ -43,7 +43,14 @@ source("scripts/config.R")
 <!-- Word count: approx. 400  -->
 <!-- Look at the model in part 2 below. Based on this state a research question and a hypothesis. Remember a hypothesis needs at least two variables. -->
 
-It is possible to add citations to your arguments [@R-base]. 
+In 1998, the Good Friday/Belfast Agreement was signed and later validated by the voters, and this agreement marked a new era of hope towards peace, equality, and inclusion in Northern Ireland [@galligan2013gender]. The main focus on the agreement and referendum was obviously to stop the violent conflict and seek peace, but one part of the agreement also emphasized an equality agenda [@Hayward2021]. Thus, the agreement also marked the first Northern Irish formal recognition of women's rights to political inclusion [@galligan2013gender]. However, a formal recognition does not necessarily imply that gender equality trickles down into social norms and practices. Therefore, this report examines the contemporary state of women's equality in Northern Ireland. 
+
+Perhaps, the most central concept within gender equality is the *gender pay gap*. Disparities in income is an important indicator for gender equality, because it has social, economic, and physiological consequences [@bishu2017gender]. Research on this area have identified several factors that seems to influence a gender pay gap. One such factor can be inequality in access to workplace authority, where women are denied manager or supervisor position although there were equally qualified [@bishu2017gender]. Other factors can be discrimination in hiring or promotion processes, but also lack of gender representation can avoid minorities to even apply for a job or promition [@bishu2017gender]. 
+
+Deductive [@bryman2016social 33]
+
+
+
 
 
 
@@ -53,7 +60,13 @@ It is possible to add citations to your arguments [@R-base].
 <!-- Word count: approx. 800 -->
 <!-- In this section your goal is to demonstrate that you can describe data and that you understand research design and data collection. -->
 
+We employ a cross-sectional design [@bryman2016social 53]
+
 ## Sample and Data Collection
+
+Two-tailed t-test [fogarty2018quantitative 156]
+Chi-squared test [fogarty2018quantitative 176]
+Multiple linear regression with OLS [fogarty2018quantitative 192ff]
 
 <!-- TC:ignore -->
 ```{r echo = FALSE, results='asis'}
@@ -65,6 +78,10 @@ sampling_table_numerical()
 
 
 ## Dependent and Independent Variables
+
+Levels of measurement: nominal, ordinal, interval, and ratio [@fogarty2018quantitative 56]
+
+
 
 <!-- TC:ignore -->
 ```{r echo = FALSE, fig.cap="Scatterplot of Income and Sex"}
@@ -88,6 +105,27 @@ source("scripts/regression.R")
 <!-- TC:endignore -->
 
 
+Influential data points / outliers [fogarty2018quantitative 221-222]
+
+
+## Check for Heteroscedasticity
+Here comes a check for heteroscedasticity. 
+
+<!-- TC:ignore -->
+```{r echo = FALSE, fig.cap="Scatterplot of Fitted Values and Residuals"}
+hetero_plot()
+#model2 <-coeftest(model, vcov = vcovHC)
+```
+<!-- TC:endignore -->
+
+
+
+## Reliability and Validity
+
+Reliability and validity [@bryman2016social 41]
+Internal and external validity [@bryman2016social 41-42]
+
+
 <!-- \pagebreak -->
 # Conclusion
 <!-- Word count: approx. 500 -->
@@ -96,3 +134,5 @@ source("scripts/regression.R")
 \pagebreak
 
 <!-- TC:ignore -->
+
+# References

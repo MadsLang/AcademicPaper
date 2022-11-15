@@ -3,14 +3,17 @@ knitr::opts_chunk$set(message=FALSE, warning=FALSE)
 knitr::opts_chunk$set(
   fig.width = 6,
   fig.asp = 0.8,
+  fig.pos= "H",
   fig.align='center',
+  table.pos = "H",
   out.width = "80%"
 )
 
 # load packages
 pacman::p_load(
   tidyverse, reticulate, extrafont, rmarkdown, tinytex,
-  stargazer, sandwich, ggplot2, ggsci, vtable, knitr, ggtext
+  stargazer, sandwich, ggplot2, ggsci, vtable, knitr, ggtext,
+  lmtest, gridExtra, grid
 )
 
 # import fonts
