@@ -9,11 +9,13 @@ knitr::opts_chunk$set(
   out.width = "80%"
 )
 
+options(scipen=999)
+
 # load packages
 pacman::p_load(
   tidyverse, reticulate, extrafont, rmarkdown, tinytex,
   stargazer, sandwich, ggplot2, ggsci, vtable, knitr, ggtext,
-  lmtest, gridExtra, grid
+  lmtest, gridExtra, grid, ggpubr
 )
 
 # import fonts

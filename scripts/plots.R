@@ -124,3 +124,44 @@ sampling_table_numerical <- function(){
     kableExtra::kable_styling(position = "center",latex_options = "HOLD_position") %>%
     footnote(general = "Statistical significance markers: * p<0.1; ** p<0.05; *** p<0.01")
 }
+
+control_vars_plot <- function(variable, label){
+  p <- ggplot(nilt, aes(x = variable, fill=variable)) +
+    geom_bar() +
+    theme_mls() +
+    theme(
+      legend.position = "none",
+      axis.ticks.y = element_blank(),
+      axis.ticks.x = element_blank()
+    ) +
+    scale_y_continuous(expand=c(0,0), limits=c(0,max(table(variable)) + 50)) +
+    xlab(label) +
+    ylab("Count")
+  p
+}
+
+
+numeric_vars_plot <- function(variable, label){
+  p <- ggplot(nilt, aes(x = variable, fill='1')) +
+    geom_density() +
+    geom_segment(aes(x=mean(variable), y=0, xend=mean(variable), yend=Inf), color="#000000", linetype='dashed') +
+    annotate(geom='label', x = mean(variable), y = Inf, hjust = 0, vjust = 1, label.size = NA, fill=NA, label='Mean', family = "LM Roman 10", size=3) +
+    theme_mls() +
+    theme(
+      legend.position = "none",
+      axis.ticks.y = element_blank(),
+      axis.ticks.x = element_blank(),
+      plot.caption = element_markdown(hjust = 0)
+    ) +
+    scale_y_continuous(expand = expansion(mult = c(0, .05)))
+    labs(
+      x=label,
+      y="Density",
+      caption="*Note*: <br> To estimate density, there is used kernel density estimation (KDE)."
+    )
+  p
+}
+
+
+
+

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.3)  15 NOV 2022 17:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.3)  16 NOV 2022 17:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -334,7 +334,25 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count290
 \@lastruleclass=\count291
 \@thisrulewidth=\dimen178
-) (/Users/madslangsorensen/Library/TinyTeX/texmf-dist/tex/latex/floatrow/floatrow.sty
+) (/Users/madslangsorensen/Library/TinyTeX/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2021/09/03 v1.2n Refers to last page's name (HMM; JPG)
+) (/Users/madslangsorensen/Library/TinyTeX/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip59
+\f@nch@O@elh=\skip60
+\f@nch@O@erh=\skip61
+\f@nch@O@olh=\skip62
+\f@nch@O@orh=\skip63
+\f@nch@O@elf=\skip64
+\f@nch@O@erf=\skip65
+\f@nch@O@olf=\skip66
+\f@nch@O@orf=\skip67
+)
+
+Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is useless.
+(fancyhdr)                Please consider using the `twoside' option on input line 91.
+
+(/Users/madslangsorensen/Library/TinyTeX/texmf-dist/tex/latex/floatrow/floatrow.sty
 Package: floatrow 2008/08/02 v0.3b floatrow: float package extension
 (/Users/madslangsorensen/Library/TinyTeX/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
@@ -359,35 +377,35 @@ Package floatrow Info: Modified rotfloat package code loaded on input line 473.
 \FB@wd=\dimen187
 \FBo@wd=\dimen188
 \FBc@wd=\dimen189
-\FBo@ht=\skip59
-\FBc@ht=\skip60
-\FBf@ht=\skip61
-\FBo@max=\skip62
-\FBc@max=\skip63
-\FBf@max=\skip64
+\FBo@ht=\skip68
+\FBc@ht=\skip69
+\FBf@ht=\skip70
+\FBo@max=\skip71
+\FBc@max=\skip72
+\FBf@max=\skip73
 \c@FBl@b=\count293
 \floatbox@depth=\count294
 \c@FRobj=\count295
 \c@FRsobj=\count296
-\Xhsize=\skip65
-\sXhsize=\skip66
-\Zhsize=\skip67
-\sZhsize=\skip68
+\Xhsize=\skip74
+\sXhsize=\skip75
+\Zhsize=\skip76
+\sZhsize=\skip77
 \flrow@rowbox=\box55
 \FR@Zunitlength=\dimen190
 \c@FBcnt=\count297
 \FPOScnt=\count298
-\LTleft=\skip69
-\LTright=\skip70
-\LTleft=\skip71
-\LTright=\skip72
+\LTleft=\skip78
+\LTright=\skip79
+\LTleft=\skip80
+\LTright=\skip81
 \flrow@types=\toks27
 ) (/Users/madslangsorensen/Library/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
-\LTleft=\skip73
-\LTright=\skip74
-\LTpre=\skip75
-\LTpost=\skip76
+\LTleft=\skip82
+\LTright=\skip83
+\LTpre=\skip84
+\LTpost=\skip85
 \LTchunksize=\count299
 \LTcapwidth=\dimen191
 \LT@head=\box56
@@ -406,14 +424,14 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \ar@mcellbox=\box61
 \extrarowheight=\dimen193
 \NC@list=\toks29
-\extratabsurround=\skip77
-\backup@length=\skip78
+\extratabsurround=\skip86
+\backup@length=\skip87
 \ar@cellbox=\box62
 ) (/Users/madslangsorensen/Library/TinyTeX/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip79
+\multirow@colwidth=\skip88
 \multirow@cntb=\count304
-\multirow@dima=\skip80
+\multirow@dima=\skip89
 \bigstrutjot=\dimen194
 ) (/Users/madslangsorensen/Library/TinyTeX/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen195
@@ -425,7 +443,7 @@ Package: wrapfig 2003/01/31  v 3.6
 ) (/Users/madslangsorensen/Library/TinyTeX/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
 \everycr=\toks31
-\minrowclearance=\skip81
+\minrowclearance=\skip90
 \rownum=\count306
 ) (/Users/madslangsorensen/Library/TinyTeX/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
@@ -465,7 +483,7 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \tabu@arstrutbox=\box66
 \tabu@hleads=\box67
 \tabu@vleads=\box68
-\tabu@cellskip=\skip82
+\tabu@cellskip=\skip91
 ) (/Users/madslangsorensen/Library/TinyTeX/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box69
@@ -476,11 +494,11 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 (/Users/madslangsorensen/Library/TinyTeX/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-\TPTL@width=\skip83
+\TPTL@width=\skip92
 ) (/Users/madslangsorensen/Library/TinyTeX/texmf-dist/tex/generic/ulem/ulem.sty
 \UL@box=\box70
 \UL@hyphenbox=\box71
-\UL@skip=\skip84
+\UL@skip=\skip93
 \UL@hook=\toks34
 \UL@height=\dimen264
 \UL@pe=\count314
@@ -507,31 +525,31 @@ LaTeX Warning: Label `tab:unnamed-chunk-1' multiply defined.
 )
 \openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
 (/Users/madslangsorensen/Library/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
 (/Users/madslangsorensen/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 123.
+Package hyperref Info: Link coloring OFF on input line 129.
 (./paper.out) (./paper.out)
 \@outlinefile=\write3
 \openout3 = `paper.out'.
@@ -570,6 +588,9 @@ Package hyperref Info: Link coloring OFF on input line 123.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 129.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 (/Users/madslangsorensen/Library/TinyTeX/texmf-dist/tex/latex/floatrow/fr-longtable.sty
@@ -578,33 +599,33 @@ Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
 \flrow@LT@prelastfoot=\box75
 \c@FBLTpage=\count318
 )
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 125.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 131.
 (/Users/madslangsorensen/Library/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 125.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 131.
 (/Users/madslangsorensen/Library/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 125.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 131.
 (/Users/madslangsorensen/Library/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 125.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 131.
 (/Users/madslangsorensen/Library/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 125.
+(Font)              <12> on input line 131.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 125.
+(Font)              <8> on input line 131.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 125.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 125.
+(Font)              <6> on input line 131.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 131.
 (/Users/madslangsorensen/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 125.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 131.
 (/Users/madslangsorensen/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -620,45 +641,98 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 \tf@toc=\write4
 \openout4 = `paper.toc'.
 
-[2] [3]
-Overfull \hbox (14.17479pt too wide) in paragraph at lines 226--238
+[2]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 182.
+(/Users/madslangsorensen/Library/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [3]
+Overfull \hbox (14.17479pt too wide) in paragraph at lines 282--294
  [][] 
  []
 
-<paper_files/figure-latex/unnamed-chunk-2-1.pdf, id=86, 433.62pt x 346.29375pt>
+[4]
+<paper_files/figure-latex/unnamed-chunk-2-1.pdf, id=114, 433.62pt x 346.29375pt>
 File: paper_files/figure-latex/unnamed-chunk-2-1.pdf Graphic file (type pdf)
 <use paper_files/figure-latex/unnamed-chunk-2-1.pdf>
-Package pdftex.def Info: paper_files/figure-latex/unnamed-chunk-2-1.pdf  used on input line 249.
+Package pdftex.def Info: paper_files/figure-latex/unnamed-chunk-2-1.pdf  used on input line 334.
 (pdftex.def)             Requested size: 375.8238pt x 300.13705pt.
-[4]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 265.
+(Font)              <9> on input line 356.
 [5 <./paper_files/figure-latex/unnamed-chunk-2-1.pdf>]
-<paper_files/figure-latex/unnamed-chunk-4-1.pdf, id=113, 433.62pt x 346.29375pt>
+<paper_files/figure-latex/unnamed-chunk-4-1.pdf, id=137, 433.62pt x 346.29375pt>
 File: paper_files/figure-latex/unnamed-chunk-4-1.pdf Graphic file (type pdf)
 <use paper_files/figure-latex/unnamed-chunk-4-1.pdf>
-Package pdftex.def Info: paper_files/figure-latex/unnamed-chunk-4-1.pdf  used on input line 328.
+Package pdftex.def Info: paper_files/figure-latex/unnamed-chunk-4-1.pdf  used on input line 421.
 (pdftex.def)             Requested size: 375.8238pt x 300.13705pt.
-[6] [7 <./paper_files/figure-latex/unnamed-chunk-4-1.pdf>] [8] (./paper.aux)
+[6] [7 <./paper_files/figure-latex/unnamed-chunk-4-1.pdf>] [8]
+<paper_files/figure-latex/unnamed-chunk-5-1.pdf, id=192, 433.62pt x 346.29375pt>
+File: paper_files/figure-latex/unnamed-chunk-5-1.pdf Graphic file (type pdf)
+<use paper_files/figure-latex/unnamed-chunk-5-1.pdf>
+Package pdftex.def Info: paper_files/figure-latex/unnamed-chunk-5-1.pdf  used on input line 491.
+(pdftex.def)             Requested size: 375.8238pt x 300.13705pt.
+<paper_files/figure-latex/unnamed-chunk-6-1.pdf, id=193, 433.62pt x 346.29375pt>
+File: paper_files/figure-latex/unnamed-chunk-6-1.pdf Graphic file (type pdf)
+<use paper_files/figure-latex/unnamed-chunk-6-1.pdf>
+Package pdftex.def Info: paper_files/figure-latex/unnamed-chunk-6-1.pdf  used on input line 500.
+(pdftex.def)             Requested size: 375.8238pt x 300.13705pt.
+[9 <./paper_files/figure-latex/unnamed-chunk-5-1.pdf>]
+<paper_files/figure-latex/unnamed-chunk-7-1.pdf, id=207, 433.62pt x 346.29375pt>
+File: paper_files/figure-latex/unnamed-chunk-7-1.pdf Graphic file (type pdf)
+<use paper_files/figure-latex/unnamed-chunk-7-1.pdf>
+Package pdftex.def Info: paper_files/figure-latex/unnamed-chunk-7-1.pdf  used on input line 509.
+(pdftex.def)             Requested size: 375.8238pt x 300.13705pt.
+[10 <./paper_files/figure-latex/unnamed-chunk-6-1.pdf>]
+<paper_files/figure-latex/unnamed-chunk-8-1.pdf, id=220, 433.62pt x 346.29375pt>
+File: paper_files/figure-latex/unnamed-chunk-8-1.pdf Graphic file (type pdf)
+<use paper_files/figure-latex/unnamed-chunk-8-1.pdf>
+Package pdftex.def Info: paper_files/figure-latex/unnamed-chunk-8-1.pdf  used on input line 518.
+(pdftex.def)             Requested size: 375.8238pt x 300.13705pt.
+[11 <./paper_files/figure-latex/unnamed-chunk-7-1.pdf>]
+<paper_files/figure-latex/unnamed-chunk-9-1.pdf, id=233, 433.62pt x 346.29375pt>
+File: paper_files/figure-latex/unnamed-chunk-9-1.pdf Graphic file (type pdf)
+<use paper_files/figure-latex/unnamed-chunk-9-1.pdf>
+Package pdftex.def Info: paper_files/figure-latex/unnamed-chunk-9-1.pdf  used on input line 527.
+(pdftex.def)             Requested size: 375.8238pt x 300.13705pt.
+[12 <./paper_files/figure-latex/unnamed-chunk-8-1.pdf>]
+<paper_files/figure-latex/unnamed-chunk-10-1.pdf, id=246, 433.62pt x 346.29375pt>
+File: paper_files/figure-latex/unnamed-chunk-10-1.pdf Graphic file (type pdf)
+<use paper_files/figure-latex/unnamed-chunk-10-1.pdf>
+Package pdftex.def Info: paper_files/figure-latex/unnamed-chunk-10-1.pdf  used on input line 536.
+(pdftex.def)             Requested size: 375.8238pt x 300.13705pt.
+[13 <./paper_files/figure-latex/unnamed-chunk-9-1.pdf>]
+<paper_files/figure-latex/unnamed-chunk-11-1.pdf, id=261, 433.62pt x 346.29375pt>
+File: paper_files/figure-latex/unnamed-chunk-11-1.pdf Graphic file (type pdf)
+<use paper_files/figure-latex/unnamed-chunk-11-1.pdf>
+Package pdftex.def Info: paper_files/figure-latex/unnamed-chunk-11-1.pdf  used on input line 545.
+(pdftex.def)             Requested size: 375.8238pt x 300.13705pt.
+[14 <./paper_files/figure-latex/unnamed-chunk-10-1.pdf>]
+<paper_files/figure-latex/unnamed-chunk-12-1.pdf, id=274, 433.62pt x 346.29375pt>
+File: paper_files/figure-latex/unnamed-chunk-12-1.pdf Graphic file (type pdf)
+<use paper_files/figure-latex/unnamed-chunk-12-1.pdf>
+Package pdftex.def Info: paper_files/figure-latex/unnamed-chunk-12-1.pdf  used on input line 554.
+(pdftex.def)             Requested size: 375.8238pt x 300.13705pt.
+[15 <./paper_files/figure-latex/unnamed-chunk-11-1.pdf>] 
+AED: lastpage setting LastPage
+[16 <./paper_files/figure-latex/unnamed-chunk-12-1.pdf>] (./paper.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `paper.out' has not changed.
-(rerunfilecheck)             Checksum: 0CEBE08D95FAC4947D4B46ECBAEE88A4;1396.
+(rerunfilecheck)             Checksum: 707D2169AD1F3CCC40D4E64F1A8D7981;1532.
  ) 
 Here is how much of TeX's memory you used:
- 14066 strings out of 476931
- 227688 string characters out of 5823764
- 581105 words of memory out of 5000000
- 35020 multiletter control sequences out of 15000+600000
- 530187 words of font info for 75 fonts, out of 8000000 for 9000
+ 14439 strings out of 476931
+ 236537 string characters out of 5823764
+ 590418 words of memory out of 5000000
+ 35352 multiletter control sequences out of 15000+600000
+ 533544 words of font info for 77 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 72i,11n,77p,286b,437s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi9.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr6.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr9.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri9.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy9.pfb>
-Output written on paper.pdf (8 pages, 338927 bytes).
+ 72i,11n,77p,339b,508s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi9.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr6.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr7.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr9.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri9.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy9.pfb>
+Output written on paper.pdf (16 pages, 409823 bytes).
 PDF statistics:
- 228 PDF objects out of 1000 (max. 8388607)
- 188 compressed objects within 2 object streams
- 39 named destinations out of 1000 (max. 500000)
- 83 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 376 PDF objects out of 1000 (max. 8388607)
+ 307 compressed objects within 4 object streams
+ 59 named destinations out of 1000 (max. 500000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
 

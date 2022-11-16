@@ -83,6 +83,12 @@
 \newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 \usepackage{amsmath}
 \usepackage{booktabs}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[CO,CE]{Page \thepage\ of \pageref{LastPage}}
 \usepackage{floatrow}
 \floatsetup[figure]{capposition=top}
 \floatsetup[table]{capposition=top}
@@ -116,7 +122,7 @@ University of Glasgow\\
 \strut \\
 Student ID: 2819052\\
 Course: Quantitative Methods\\
-Number of words: 381}
+Number of words: 1076}
 \author{}
 \date{\vspace{-2.5em}}
 
@@ -158,24 +164,74 @@ supervisor position although there were equally qualified
 (\protect\hyperlink{ref-bishu2017gender}{Bishu and Alkadry 2017}). Other
 factors can be discrimination in hiring or promotion processes, but also
 lack of gender representation can avoid minorities to even apply for a
-job or promition (\protect\hyperlink{ref-bishu2017gender}{Bishu and
+job or promotion (\protect\hyperlink{ref-bishu2017gender}{Bishu and
 Alkadry 2017}).
 
-Deductive (\protect\hyperlink{ref-bryman2016social}{Bryman 2016, 33})
+In order to examine the current gender equality in Northern Ireland, we
+therefore focus on the gender pay gap in Northern Ireland. We ask the
+following research question: \emph{Does gender affect income in
+contemporary Northern Ireland?} We employ a deductive approach, where we
+first formulate a hypothesis and subsequently examine it empirically
+(\protect\hyperlink{ref-bryman2016social}{Bryman 2016, 33}). Therefore,
+our analysis consider the following null hypothesis (H\textsubscript{0})
+and alternative hypothesis (H\textsubscript{A}):
+
+\begin{itemize}
+\tightlist
+\item
+  H\textsubscript{0}: Being a woman or man does not affect your income.
+\item
+  H\textsubscript{A}: Being a woman rather than a man affects a lower
+  income.
+\end{itemize}
+
+The causal relationship that we examine is thus a negative relationship.
+Although, we call this relationship causal, it is important to clarify
+that I do not imply that there is anything biological or deterministic
+that reduce women's income in general. Rather, the causal link is
+interpreted as a result of the societal discriminatory practices
+explained in the previous paragraph. To make a convincing inquiry of
+this causal relationship, we must also control for a number of other
+factor related to income and gender. This is important to make sure that
+our analysis do not simply show a spurious correlation as it could in
+fact be another factor that influences both gender and income. These
+control variables are introduced in the Data and Methods-section.
 
 \hypertarget{data-and-method}{%
 \section{Data and method}\label{data-and-method}}
 
-We employ a cross-sectional design
-(\protect\hyperlink{ref-bryman2016social}{Bryman 2016, 53})
+The research design of this analysis is a cross-sectional design
+(\protect\hyperlink{ref-bryman2016social}{Bryman 2016, 53}). This means
+that the data for analysis is collected at a single point in time and
+consists of a sample of respondents from which we seek to infer to a
+general population of Northern Ireland
+(\protect\hyperlink{ref-field2012discovering}{Field, Miles, and Field
+2012, 36}). This section describes this sample and how the data was
+collected, and then subsequently the operationalized variables to
+examine our research hypothesis are described.
 
 \hypertarget{sample-and-data-collection}{%
 \subsection{Sample and Data
 Collection}\label{sample-and-data-collection}}
 
-Two-tailed t-test {[}fogarty2018quantitative 156{]} Chi-squared test
-{[}fogarty2018quantitative 176{]} Multiple linear regression with OLS
-{[}fogarty2018quantitative 192ff{]}
+Our sample for the analysis consists of data from Northern Ireland Life
+and Times Survey (NILT). The data have been collected every year since
+1998, but this analysis uses the survey from 2012
+(\protect\hyperlink{ref-ark_2012}{ARK 2012}). The respondents for the
+NILT survey was chosen from a systematic random sample of addresses.
+From this sample of 2126 addresses, 1204 questionnaires were fully
+completed using partly face-to-face- and self-completion questionnaires
+(\protect\hyperlink{ref-ark_2012}{ARK 2012}). Our sample of analysis is
+further reduced as not all respondents have answered our variables of
+interest, and we are therefore not able to include those respondents in
+our analysis. In the tables below, we present descriptive statistics for
+our variables of interest in both the full NILT sample and our sample of
+analysis. The first tables shows the categorical variables, where a
+frequency distribution are shown
+(\protect\hyperlink{ref-fogarty2018quantitative}{Fogarty 2018, 88}). The
+second table shows the numerical variables, where we have calculated the
+mean and standard deviation
+(\protect\hyperlink{ref-fogarty2018quantitative}{Fogarty 2018, 95}).
 
 \begin{table}[H]
 
@@ -237,9 +293,38 @@ Age & 675 & 46.763 & 17.117 & 1201 & 49.615 & 18.53 & F=10.81***\\
 \end{tabular}
 \end{table}
 
-\hypertarget{dependent-and-independent-variables}{%
-\subsection{Dependent and Independent
-Variables}\label{dependent-and-independent-variables}}
+In the table with categorical variables, we conduct a Chi-squared test
+to check if there is independence between the samples or not,
+i.e.~whether the frequency distribution is significantly different
+(\protect\hyperlink{ref-fogarty2018quantitative}{Fogarty 2018, 176}).
+For the numerical variables, we conduct an Analysis of Variances (ANOVA)
+to test whether the means in the two samples are significantly different
+(\protect\hyperlink{ref-field2012discovering}{Field, Miles, and Field
+2012, 399ff}). For the categorical variables, we see that for the test
+of trade union membership, the test value is 9.162, which is
+significantly different from 0 (with a p-value less than 0.01). This
+indicates that the frequency distribution in our sample is significantly
+different from the full NILT sample. There is a larger share (44.6 \%)
+of members of a trade union after removing missing values compared to
+only 37.3 \% in the full NILT sample. Similarly, we see from the ANOVA
+that the test value (F) for age is significantly different from 0 (with
+a p-value less than 0.01) meaning that our sample is different from the
+full NILT sample in the age distribution. We can see that the mean age
+is only around 46 years compared to 49 years in the full NILT sample.
+These two findings are important to bear in mind, when we interpret our
+final conclusion as both age and trade union membership might be related
+to our dependent variable, income.
+
+The systematic random sampling strategy in the NILT survey is an
+approach to make the sample representative of our population - in our
+case all inhabitants of Northern Ireland. It could be relevant to
+examine the demographic distribution in our sample against the general
+population of Northern Ireland, but unfortunately that is beyond the
+scope of this report.
+
+\hypertarget{dependent-independent-and-control-variables}{%
+\subsection{Dependent, Independent, and Control
+Variables}\label{dependent-independent-and-control-variables}}
 
 Levels of measurement: nominal, ordinal, interval, and ratio
 (\protect\hyperlink{ref-fogarty2018quantitative}{Fogarty 2018, 56})
@@ -252,6 +337,12 @@ Levels of measurement: nominal, ordinal, interval, and ratio
 
 \caption{Scatterplot of Income and Sex}\label{fig:unnamed-chunk-2}
 \end{figure}
+
+To fully examine the relationship between our dependent and independent
+variable, we employ a multiple linear regression estimated with OLS
+{[}fogarty2018quantitative 192ff{]}. Thus, we are also able to include
+the control variables to make the acceptance or decline of our
+hypothesis more convincing.
 
 \hypertarget{results-and-discussion}{%
 \section{Results and discussion}\label{results-and-discussion}}
@@ -315,7 +406,9 @@ F Statistic & 13.533$^{***}$ (df = 11; 663) \\
 \end{tabular} 
 \end{table}
 
-Influential data points / outliers {[}fogarty2018quantitative 221-222{]}
+Effect sizes (\protect\hyperlink{ref-field2012discovering}{Field, Miles,
+and Field 2012, 57}) Influential data points / outliers
+(\protect\hyperlink{ref-fogarty2018quantitative}{Fogarty 2018, 221--22})
 
 \hypertarget{check-for-heteroscedasticity}{%
 \subsection{Check for
@@ -346,11 +439,14 @@ external validity (\protect\hyperlink{ref-bryman2016social}{Bryman 2016,
 \pagebreak
 
 \hypertarget{references}{%
-\section*{References}\label{references}}
-\addcontentsline{toc}{section}{References}
+\section{References}\label{references}}
 
 \hypertarget{refs}{}
 \begin{CSLReferences}{1}{0}
+\leavevmode\vadjust pre{\hypertarget{ref-ark_2012}{}}%
+ARK. 2012. \emph{2012 Northern Ireland Life \&Amp; Times Survey:
+Technical Notes}. ARK. \url{https://www.ark.ac.uk/nilt/2012/tech12.pdf}.
+
 \leavevmode\vadjust pre{\hypertarget{ref-bishu2017gender}{}}%
 Bishu, Sebawit G., and Mohamad G. Alkadry. 2017. {``A Systematic Review
 of the Gender Pay Gap and Factors That Predict It.''}
@@ -360,6 +456,11 @@ of the Gender Pay Gap and Factors That Predict It.''}
 \leavevmode\vadjust pre{\hypertarget{ref-bryman2016social}{}}%
 Bryman, A. 2016. \emph{Social Research Methods}. Oxford University
 Press. \url{https://books.google.co.uk/books?id=N2zQCgAAQBAJ}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-field2012discovering}{}}%
+Field, A., J. Miles, and Z. Field. 2012. \emph{Discovering Statistics
+Using r}. SAGE Publications.
+\url{https://books.google.co.uk/books?id=wd2K2zC3swIC}.
 
 \leavevmode\vadjust pre{\hypertarget{ref-fogarty2018quantitative}{}}%
 Fogarty, B. J. 2018. \emph{Quantitative Social Science Data with r: An
@@ -379,5 +480,82 @@ Smith, 247--65. Cham: Springer International Publishing.
 \url{https://doi.org/10.1007/978-3-030-55803-1_12}.
 
 \end{CSLReferences}
+
+\pagebreak
+
+\hypertarget{appendix}{%
+\section{Appendix}\label{appendix}}
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=0.8\linewidth]{paper_files/figure-latex/unnamed-chunk-5-1} 
+
+}
+
+\caption{Barplot of Sex}\label{fig:unnamed-chunk-5}
+\end{figure}
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=0.8\linewidth]{paper_files/figure-latex/unnamed-chunk-6-1} 
+
+}
+
+\caption{Barplot of Religion}\label{fig:unnamed-chunk-6}
+\end{figure}
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=0.8\linewidth]{paper_files/figure-latex/unnamed-chunk-7-1} 
+
+}
+
+\caption{Barplot of Sexual Orientation}\label{fig:unnamed-chunk-7}
+\end{figure}
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=0.8\linewidth]{paper_files/figure-latex/unnamed-chunk-8-1} 
+
+}
+
+\caption{Barplot of Constitutional View}\label{fig:unnamed-chunk-8}
+\end{figure}
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=0.8\linewidth]{paper_files/figure-latex/unnamed-chunk-9-1} 
+
+}
+
+\caption{Barplot of Trade union membership}\label{fig:unnamed-chunk-9}
+\end{figure}
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=0.8\linewidth]{paper_files/figure-latex/unnamed-chunk-10-1} 
+
+}
+
+\caption{Barplot of Supervisor}\label{fig:unnamed-chunk-10}
+\end{figure}
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=0.8\linewidth]{paper_files/figure-latex/unnamed-chunk-11-1} 
+
+}
+
+\caption{Density plot of Age}\label{fig:unnamed-chunk-11}
+\end{figure}
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=0.8\linewidth]{paper_files/figure-latex/unnamed-chunk-12-1} 
+
+}
+
+\caption{Density plot of Income}\label{fig:unnamed-chunk-12}
+\end{figure}
 
 \end{document}
