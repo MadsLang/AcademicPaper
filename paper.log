@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.3)  16 NOV 2022 17:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.3)  22 NOV 2022 14:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -646,93 +646,94 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 18
 (/Users/madslangsorensen/Library/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [3]
-Overfull \hbox (14.17479pt too wide) in paragraph at lines 282--294
+Overfull \hbox (14.17479pt too wide) in paragraph at lines 285--297
  [][] 
  []
 
 [4]
-<paper_files/figure-latex/unnamed-chunk-2-1.pdf, id=114, 433.62pt x 346.29375pt>
+<paper_files/figure-latex/unnamed-chunk-2-1.pdf, id=118, 433.62pt x 346.29375pt>
 File: paper_files/figure-latex/unnamed-chunk-2-1.pdf Graphic file (type pdf)
 <use paper_files/figure-latex/unnamed-chunk-2-1.pdf>
-Package pdftex.def Info: paper_files/figure-latex/unnamed-chunk-2-1.pdf  used on input line 334.
+Package pdftex.def Info: paper_files/figure-latex/unnamed-chunk-2-1.pdf  used on input line 368.
 (pdftex.def)             Requested size: 375.8238pt x 300.13705pt.
+[5] [6 <./paper_files/figure-latex/unnamed-chunk-2-1.pdf>]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 356.
-[5 <./paper_files/figure-latex/unnamed-chunk-2-1.pdf>]
-<paper_files/figure-latex/unnamed-chunk-4-1.pdf, id=137, 433.62pt x 346.29375pt>
+(Font)              <9> on input line 441.
+[7] [8]
+<paper_files/figure-latex/unnamed-chunk-4-1.pdf, id=181, 433.62pt x 346.29375pt>
 File: paper_files/figure-latex/unnamed-chunk-4-1.pdf Graphic file (type pdf)
 <use paper_files/figure-latex/unnamed-chunk-4-1.pdf>
-Package pdftex.def Info: paper_files/figure-latex/unnamed-chunk-4-1.pdf  used on input line 421.
+Package pdftex.def Info: paper_files/figure-latex/unnamed-chunk-4-1.pdf  used on input line 548.
 (pdftex.def)             Requested size: 375.8238pt x 300.13705pt.
-[6] [7 <./paper_files/figure-latex/unnamed-chunk-4-1.pdf>] [8]
-<paper_files/figure-latex/unnamed-chunk-5-1.pdf, id=192, 433.62pt x 346.29375pt>
+[9 <./paper_files/figure-latex/unnamed-chunk-4-1.pdf>] [10] [11]
+<paper_files/figure-latex/unnamed-chunk-5-1.pdf, id=228, 433.62pt x 346.29375pt>
 File: paper_files/figure-latex/unnamed-chunk-5-1.pdf Graphic file (type pdf)
 <use paper_files/figure-latex/unnamed-chunk-5-1.pdf>
-Package pdftex.def Info: paper_files/figure-latex/unnamed-chunk-5-1.pdf  used on input line 491.
+Package pdftex.def Info: paper_files/figure-latex/unnamed-chunk-5-1.pdf  used on input line 660.
 (pdftex.def)             Requested size: 375.8238pt x 300.13705pt.
-<paper_files/figure-latex/unnamed-chunk-6-1.pdf, id=193, 433.62pt x 346.29375pt>
+<paper_files/figure-latex/unnamed-chunk-6-1.pdf, id=229, 433.62pt x 346.29375pt>
 File: paper_files/figure-latex/unnamed-chunk-6-1.pdf Graphic file (type pdf)
 <use paper_files/figure-latex/unnamed-chunk-6-1.pdf>
-Package pdftex.def Info: paper_files/figure-latex/unnamed-chunk-6-1.pdf  used on input line 500.
+Package pdftex.def Info: paper_files/figure-latex/unnamed-chunk-6-1.pdf  used on input line 669.
 (pdftex.def)             Requested size: 375.8238pt x 300.13705pt.
-[9 <./paper_files/figure-latex/unnamed-chunk-5-1.pdf>]
-<paper_files/figure-latex/unnamed-chunk-7-1.pdf, id=207, 433.62pt x 346.29375pt>
+[12 <./paper_files/figure-latex/unnamed-chunk-5-1.pdf>]
+<paper_files/figure-latex/unnamed-chunk-7-1.pdf, id=242, 433.62pt x 346.29375pt>
 File: paper_files/figure-latex/unnamed-chunk-7-1.pdf Graphic file (type pdf)
 <use paper_files/figure-latex/unnamed-chunk-7-1.pdf>
-Package pdftex.def Info: paper_files/figure-latex/unnamed-chunk-7-1.pdf  used on input line 509.
+Package pdftex.def Info: paper_files/figure-latex/unnamed-chunk-7-1.pdf  used on input line 678.
 (pdftex.def)             Requested size: 375.8238pt x 300.13705pt.
-[10 <./paper_files/figure-latex/unnamed-chunk-6-1.pdf>]
-<paper_files/figure-latex/unnamed-chunk-8-1.pdf, id=220, 433.62pt x 346.29375pt>
+[13 <./paper_files/figure-latex/unnamed-chunk-6-1.pdf>]
+<paper_files/figure-latex/unnamed-chunk-8-1.pdf, id=256, 433.62pt x 346.29375pt>
 File: paper_files/figure-latex/unnamed-chunk-8-1.pdf Graphic file (type pdf)
 <use paper_files/figure-latex/unnamed-chunk-8-1.pdf>
-Package pdftex.def Info: paper_files/figure-latex/unnamed-chunk-8-1.pdf  used on input line 518.
+Package pdftex.def Info: paper_files/figure-latex/unnamed-chunk-8-1.pdf  used on input line 687.
 (pdftex.def)             Requested size: 375.8238pt x 300.13705pt.
-[11 <./paper_files/figure-latex/unnamed-chunk-7-1.pdf>]
-<paper_files/figure-latex/unnamed-chunk-9-1.pdf, id=233, 433.62pt x 346.29375pt>
+[14 <./paper_files/figure-latex/unnamed-chunk-7-1.pdf>]
+<paper_files/figure-latex/unnamed-chunk-9-1.pdf, id=270, 433.62pt x 346.29375pt>
 File: paper_files/figure-latex/unnamed-chunk-9-1.pdf Graphic file (type pdf)
 <use paper_files/figure-latex/unnamed-chunk-9-1.pdf>
-Package pdftex.def Info: paper_files/figure-latex/unnamed-chunk-9-1.pdf  used on input line 527.
+Package pdftex.def Info: paper_files/figure-latex/unnamed-chunk-9-1.pdf  used on input line 696.
 (pdftex.def)             Requested size: 375.8238pt x 300.13705pt.
-[12 <./paper_files/figure-latex/unnamed-chunk-8-1.pdf>]
-<paper_files/figure-latex/unnamed-chunk-10-1.pdf, id=246, 433.62pt x 346.29375pt>
+[15 <./paper_files/figure-latex/unnamed-chunk-8-1.pdf>]
+<paper_files/figure-latex/unnamed-chunk-10-1.pdf, id=283, 433.62pt x 346.29375pt>
 File: paper_files/figure-latex/unnamed-chunk-10-1.pdf Graphic file (type pdf)
 <use paper_files/figure-latex/unnamed-chunk-10-1.pdf>
-Package pdftex.def Info: paper_files/figure-latex/unnamed-chunk-10-1.pdf  used on input line 536.
+Package pdftex.def Info: paper_files/figure-latex/unnamed-chunk-10-1.pdf  used on input line 705.
 (pdftex.def)             Requested size: 375.8238pt x 300.13705pt.
-[13 <./paper_files/figure-latex/unnamed-chunk-9-1.pdf>]
-<paper_files/figure-latex/unnamed-chunk-11-1.pdf, id=261, 433.62pt x 346.29375pt>
+[16 <./paper_files/figure-latex/unnamed-chunk-9-1.pdf>]
+<paper_files/figure-latex/unnamed-chunk-11-1.pdf, id=296, 433.62pt x 346.29375pt>
 File: paper_files/figure-latex/unnamed-chunk-11-1.pdf Graphic file (type pdf)
 <use paper_files/figure-latex/unnamed-chunk-11-1.pdf>
-Package pdftex.def Info: paper_files/figure-latex/unnamed-chunk-11-1.pdf  used on input line 545.
+Package pdftex.def Info: paper_files/figure-latex/unnamed-chunk-11-1.pdf  used on input line 714.
 (pdftex.def)             Requested size: 375.8238pt x 300.13705pt.
-[14 <./paper_files/figure-latex/unnamed-chunk-10-1.pdf>]
-<paper_files/figure-latex/unnamed-chunk-12-1.pdf, id=274, 433.62pt x 346.29375pt>
+[17 <./paper_files/figure-latex/unnamed-chunk-10-1.pdf>]
+<paper_files/figure-latex/unnamed-chunk-12-1.pdf, id=309, 433.62pt x 346.29375pt>
 File: paper_files/figure-latex/unnamed-chunk-12-1.pdf Graphic file (type pdf)
 <use paper_files/figure-latex/unnamed-chunk-12-1.pdf>
-Package pdftex.def Info: paper_files/figure-latex/unnamed-chunk-12-1.pdf  used on input line 554.
+Package pdftex.def Info: paper_files/figure-latex/unnamed-chunk-12-1.pdf  used on input line 723.
 (pdftex.def)             Requested size: 375.8238pt x 300.13705pt.
-[15 <./paper_files/figure-latex/unnamed-chunk-11-1.pdf>] 
+[18 <./paper_files/figure-latex/unnamed-chunk-11-1.pdf>] 
 AED: lastpage setting LastPage
-[16 <./paper_files/figure-latex/unnamed-chunk-12-1.pdf>] (./paper.aux)
+[19 <./paper_files/figure-latex/unnamed-chunk-12-1.pdf>] (./paper.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `paper.out' has not changed.
-(rerunfilecheck)             Checksum: 707D2169AD1F3CCC40D4E64F1A8D7981;1532.
+(rerunfilecheck)             Checksum: 7FE8B62F88AF17F624CDC247216C1CB5;1391.
  ) 
 Here is how much of TeX's memory you used:
- 14439 strings out of 476931
+ 14444 strings out of 476931
  236537 string characters out of 5823764
- 590418 words of memory out of 5000000
- 35352 multiletter control sequences out of 15000+600000
+ 590404 words of memory out of 5000000
+ 35353 multiletter control sequences out of 15000+600000
  533544 words of font info for 77 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 72i,11n,77p,339b,508s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi9.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr6.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr7.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr9.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri9.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy9.pfb>
-Output written on paper.pdf (16 pages, 409823 bytes).
+ 72i,12n,77p,286b,450s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi9.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr6.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr7.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr9.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri9.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></Users/madslangsorensen/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy9.pfb>
+Output written on paper.pdf (19 pages, 443059 bytes).
 PDF statistics:
- 376 PDF objects out of 1000 (max. 8388607)
- 307 compressed objects within 4 object streams
- 59 named destinations out of 1000 (max. 500000)
+ 425 PDF objects out of 1000 (max. 8388607)
+ 347 compressed objects within 4 object streams
+ 63 named destinations out of 1000 (max. 500000)
  131 words of extra memory for PDF output out of 10000 (max. 10000000)
 

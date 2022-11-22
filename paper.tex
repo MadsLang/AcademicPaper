@@ -122,7 +122,7 @@ University of Glasgow\\
 \strut \\
 Student ID: 2819052\\
 Course: Quantitative Methods\\
-Number of words: 1076}
+Number of words: 2481}
 \author{}
 \date{\vspace{-2.5em}}
 
@@ -195,10 +195,11 @@ this causal relationship, we must also control for a number of other
 factor related to income and gender. This is important to make sure that
 our analysis do not simply show a spurious correlation as it could in
 fact be another factor that influences both gender and income. These
-control variables are introduced in the Data and Methods-section.
+control variables are introduced in
+\protect\hyperlink{data-and-method}{Data and Method}.
 
 \hypertarget{data-and-method}{%
-\section{Data and method}\label{data-and-method}}
+\section{Data and Method}\label{data-and-method}}
 
 The research design of this analysis is a cross-sectional design
 (\protect\hyperlink{ref-bryman2016social}{Bryman 2016, 53}). This means
@@ -231,7 +232,9 @@ frequency distribution are shown
 (\protect\hyperlink{ref-fogarty2018quantitative}{Fogarty 2018, 88}). The
 second table shows the numerical variables, where we have calculated the
 mean and standard deviation
-(\protect\hyperlink{ref-fogarty2018quantitative}{Fogarty 2018, 95}).
+(\protect\hyperlink{ref-fogarty2018quantitative}{Fogarty 2018, 95}). For
+a full visualization of all variables included in the analysis, see
+\protect\hyperlink{appendix}{Appendix}.
 
 \begin{table}[H]
 
@@ -243,7 +246,7 @@ mean and standard deviation
 \cmidrule(l{3pt}r{3pt}){2-3} \cmidrule(l{3pt}r{3pt}){4-5}
 Variable & N & Percent & N & Percent & Test\\
 \midrule
-Sex & 675 &  & 1204 &  & X2=1.022\\
+Gender & 675 &  & 1204 &  & X2=1.022\\
 ... Male & 284 & 42.1\% & 537 & 44.6\% & \\
 ... Female & 391 & 57.9\% & 667 & 55.4\% & \\
 Religion & 675 &  & 1168 &  & X2=0.849\\
@@ -263,12 +266,12 @@ Constitutional View & 675 &  & 1183 &  & X2=0.347\\
 \addlinespace
 ... Neither & 338 & 50.1\% & 580 & 49\% & \\
 Trade union membership & 675 &  & 1179 &  & X2=9.162***\\
-... Yes & 301 & 44.6\% & 440 & 37.3\% & \\
 ... No & 374 & 55.4\% & 739 & 62.7\% & \\
+... Yes & 301 & 44.6\% & 440 & 37.3\% & \\
 Supervisor: No & 675 &  & 883 &  & X2=0.143\\
 \addlinespace
-... Yes & 211 & 31.3\% & 267 & 30.2\% & \\
 ... No & 464 & 68.7\% & 616 & 69.8\% & \\
+... Yes & 211 & 31.3\% & 267 & 30.2\% & \\
 \bottomrule
 \multicolumn{6}{l}{\rule{0pt}{1em}\textit{Note: }}\\
 \multicolumn{6}{l}{\rule{0pt}{1em}Statistical significance markers: * p<0.1; ** p<0.05; *** p<0.01}\\
@@ -293,9 +296,11 @@ Age & 675 & 46.763 & 17.117 & 1201 & 49.615 & 18.53 & F=10.81***\\
 \end{tabular}
 \end{table}
 
-In the table with categorical variables, we conduct a Chi-squared test
-to check if there is independence between the samples or not,
-i.e.~whether the frequency distribution is significantly different
+As the table shows, our sample is significantly reduced by removing
+missing values - from 1204 observations to 675 observations. In the
+table with categorical variables, we conduct a Chi-squared test to check
+if there is independence between the samples or not, i.e.~whether the
+frequency distribution is significantly different
 (\protect\hyperlink{ref-fogarty2018quantitative}{Fogarty 2018, 176}).
 For the numerical variables, we conduct an Analysis of Variances (ANOVA)
 to test whether the means in the two samples are significantly different
@@ -322,12 +327,41 @@ examine the demographic distribution in our sample against the general
 population of Northern Ireland, but unfortunately that is beyond the
 scope of this report.
 
-\hypertarget{dependent-independent-and-control-variables}{%
-\subsection{Dependent, Independent, and Control
-Variables}\label{dependent-independent-and-control-variables}}
+\hypertarget{dependent-and-independent-variables}{%
+\subsection{Dependent and Independent
+Variables}\label{dependent-and-independent-variables}}
 
-Levels of measurement: nominal, ordinal, interval, and ratio
-(\protect\hyperlink{ref-fogarty2018quantitative}{Fogarty 2018, 56})
+In order to examine the research question empirically, we operationalize
+the concepts included in our hypothesis as measurable variables. As the
+questionnaire was formulated beforehand in the NILT 2012 survey, the
+data is a secondary source, as we have to find the questions that can
+represent our theoretical concepts.
+
+The dependent variable or outcome that we want to explain in this
+analysis is income. Although income in itself is not complex concept
+compared to other theoretical concepts in social science, it can still
+be measured in many different ways. In this analysis, we measure income
+by the question: \emph{What is your personal income before tax and
+national insurance contributions? (£ per year)}. It is thus a numeric,
+most specifically a ratio scale with an value of absolute zero -
+although it is quite uncommon to have a personal income of zero
+(\protect\hyperlink{ref-fogarty2018quantitative}{Fogarty 2018, 56}).
+
+The independent variable or explanatory variable of our analysis is
+gender. Gender is a much more complex concept, and there is a large
+discussion about the distinction between gender and sex, and the
+biological and cultural components of these
+(\protect\hyperlink{ref-unger1993sex}{Unger and Crawford 1993}).
+Quantitative research have mostly been dominated by gender being
+measured as a binary division between male and female. Thus, we are also
+limited to such a measurement of gender in the NILT 2012 survey. In this
+analysis, we therefore measure gender by a nominal, binary variable of
+either ``male'' or ``female''.
+
+To consider the distribution of our dependent and independent variable,
+see the following scatter plot of income and gender. In the scatter
+plot, we also show the mean and median income for each group of gender
+by the solid and dashed lines.
 
 \begin{figure}[H]
 
@@ -335,86 +369,179 @@ Levels of measurement: nominal, ordinal, interval, and ratio
 
 }
 
-\caption{Scatterplot of Income and Sex}\label{fig:unnamed-chunk-2}
+\caption{Scatterplot of Income and Gender}\label{fig:unnamed-chunk-2}
 \end{figure}
+
+There are several insights from this visualization. The vertical
+differences between the descriptive statistics, mean and median
+signifies that there is a general income difference between males and
+females, and that females in average have lower incomes than men.
+Initially, this suggests an acceptance of our alternative research
+hypothesis, but we will wait will any conclusion till the analysis,
+where we also control for other related factors. Another interesting
+insight is that there the distribution of income seems to slightly
+skewed. For both males and females, there are some respondents with a
+very high income compared to most other respondents. This is also seen
+as there is a difference between the mean and the median for both
+groups. These respondents have such extreme high incomes that they might
+be outliers compared to the general trend, and we need to be aware of
+that in our analysis
+(\protect\hyperlink{ref-fogarty2018quantitative}{Fogarty 2018,
+221--22}).
+
+\hypertarget{control-variables}{%
+\subsection{Control Variables}\label{control-variables}}
+
+Theoretically, there are other characteristics than gender than might
+affect your income. Firstly, there are characteristics related to your
+work that might affect a higher salary that is not rooted in
+discriminatory practices. To make sure that an effect of gender is not
+just a result these factor, we find it relevant to include trade union
+membership and whether or not someone has a formal responsibility for
+supervising the work of other employees
+(\protect\hyperlink{ref-ark_2012}{ARK 2012}). Moreover, there can also
+be other characteristics that affect a lower income based in
+discriminatory practices that is not rooted upon one's gender.
+Therefore, we also include religion, sexual orientation, constitutional
+view, and age into our analysis as control variables.
+
+\hypertarget{method-of-analysis}{%
+\subsection{Method of Analysis}\label{method-of-analysis}}
 
 To fully examine the relationship between our dependent and independent
 variable, we employ a multiple linear regression estimated with OLS
-{[}fogarty2018quantitative 192ff{]}. Thus, we are also able to include
-the control variables to make the acceptance or decline of our
-hypothesis more convincing.
+(\protect\hyperlink{ref-fogarty2018quantitative}{Fogarty 2018, 192ff}).
+Thus, we are also able to include the control variables to make the
+acceptance or decline of our hypothesis more convincing. The formula of
+the regression of our analysis is thus: \begin{align*}
+\hat income = \beta_0 + \beta_1*gender + \beta_2 * religion + \beta_3 * Sexual Orientation \\ + \beta_4 * Constitutional View +  \beta_5*Trade Union Membership + \beta_6*Supervisor + \varepsilon
+\end{align*}
+
+where the main parameter of interest is \(\beta_1\) for gender.
 
 \hypertarget{results-and-discussion}{%
 \section{Results and discussion}\label{results-and-discussion}}
 
-Here comes the regression.
+This report examines the question of whether gender affect income in
+contemporary Northern Ireland. As described in the
+\protect\hyperlink{introduction}{Introduction}, the analysis therefore
+seeks to accept wither the null hypothesis or the alternative hypothesis
+- that being a woman rather than a man affects a lower income. As
+described in the \protect\hyperlink{data-and-method}{Data and Method}
+section, our analysis consists of survey data, where our main variables
+are answered gender and personal income. To examine our hypothesis, the
+following table shows the results of two regressions. First, our model
+is shown as a bivariate regression excluding our control variables, and
+secondly our full model is shown including our control variables.
 
 \begin{table}[H] \centering 
   \caption{Regression results} 
   \label{} 
 \small 
-\begin{tabular}{@{\hspace{5pt}}l@{\hspace{5pt}}c} 
+\begin{tabular}{@{\hspace{5pt}}l@{\hspace{5pt}}cc} 
 \toprule 
- & \multicolumn{1}{c}{Dependent Variable} \\ 
-\cmidrule(rr){2-2} 
- & Annual Personal Income (GBP) \\ 
+ & \multicolumn{2}{c}{Dependent Variable} \\ 
+\cmidrule(rr){2-3} 
+ & \multicolumn{2}{c}{Annual Personal Income (GBP)} \\ 
+ \cmidrule(rr){2-3}
+ & Model excl. controls & Model incl. controls \\ 
 \midrule  
-\\[-2.1ex] Sex: Female (ref.: Male) & $-$5,068.737$^{***}$ \\ 
-  & (994.748) \\ 
+\\[-2.1ex] Gender: Female (ref.: Male) & $-$5,234.993$^{***}$ & $-$5,068.737$^{***}$ \\ 
+  & (1,029.652) & (994.748) \\ 
  \addlinespace 
- Religion: Protestant (ref.: Catholic) & 465.188 \\ 
-  & (1,458.367) \\ 
+ Religion: Protestant (ref.: Catholic) &  & 465.188 \\ 
+  &  & (1,458.367) \\ 
  \addlinespace 
- Religion: No religion & 895.169 \\ 
-  & (1,533.323) \\ 
+ Religion: No religion &  & 895.169 \\ 
+  &  & (1,533.323) \\ 
  \addlinespace 
- Sexual Orientation: Homosexual (ref.: Heterosexual) & $-$6,247.777$^{*}$ \\ 
-  & (3,437.048) \\ 
+ Sexual Orientation: Homosexual (ref.: Heterosexual) &  & $-$6,247.777$^{*}$ \\ 
+  &  & (3,437.048) \\ 
  \addlinespace 
- Sexual Orientation: bi-sexual & $-$2,826.980 \\ 
-  & (8,698.806) \\ 
+ Sexual Orientation: bi-sexual &  & $-$2,826.980 \\ 
+  &  & (8,698.806) \\ 
  \addlinespace 
- Sexual Orientation: Other & 1,323.336 \\ 
-  & (8,737.282) \\ 
+ Sexual Orientation: Other &  & 1,323.336 \\ 
+  &  & (8,737.282) \\ 
  \addlinespace 
- Constitutional View: Nationalist (ref.: Unionist) & 1,788.873 \\ 
-  & (1,898.294) \\ 
+ Constitutional View: Nationalist (ref.: Unionist) &  & 1,788.873 \\ 
+  &  & (1,898.294) \\ 
  \addlinespace 
- Constitutional view: Neither & 1,438.036 \\ 
-  & (1,350.423) \\ 
+ Constitutional view: Neither &  & 1,438.036 \\ 
+  &  & (1,350.423) \\ 
  \addlinespace 
- Trade union membership: No (ref.: Yes) & $-$5,277.978$^{***}$ \\ 
-  & (977.008) \\ 
+ Trade union membership: Yes (ref.: No) &  & 5,277.978$^{***}$ \\ 
+  &  & (977.008) \\ 
  \addlinespace 
- Supervisor: No (ref.: Yes) & $-$8,648.320$^{***}$ \\ 
-  & (1,037.559) \\ 
+ Supervisor: Yes (ref.: No) &  & 8,648.320$^{***}$ \\ 
+  &  & (1,037.559) \\ 
  \addlinespace 
- Age & $-$84.369$^{***}$ \\ 
-  & (29.430) \\ 
+ Age &  & $-$84.369$^{***}$ \\ 
+  &  & (29.430) \\ 
  \addlinespace 
- Constant & 31,343.540$^{***}$ \\ 
-  & (2,488.067) \\ 
+ Constant & 19,924.510$^{***}$ & 17,417.240$^{***}$ \\ 
+  & (783.659) & (2,223.337) \\ 
  \addlinespace 
 \midrule  
-Observations & 675 \\ 
-R$^{2}$ & 0.183 \\ 
-Adjusted R$^{2}$ & 0.170 \\ 
-Residual Std. Error & 12,252.840 (df = 663) \\ 
-F Statistic & 13.533$^{***}$ (df = 11; 663) \\ 
+Observations & 675 & 675 \\ 
+R$^{2}$ & 0.037 & 0.183 \\ 
+Adjusted R$^{2}$ & 0.036 & 0.170 \\ 
+Residual Std. Error & 13,206.460 (df = 673) & 12,252.840 (df = 663) \\ 
+F Statistic & 25.849$^{***}$ (df = 1; 673) & 13.533$^{***}$ (df = 11; 663) \\ 
 \bottomrule 
-\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\textit{Note:}  & \multicolumn{2}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
 \end{tabular} 
 \end{table}
 
-Effect sizes (\protect\hyperlink{ref-field2012discovering}{Field, Miles,
-and Field 2012, 57}) Influential data points / outliers
-(\protect\hyperlink{ref-fogarty2018quantitative}{Fogarty 2018, 221--22})
+The primary finding from the regression results is that the variable
+gender have an significant effect on income. We see that the p-value is
+less than 0.01. This indicates that there is indeed a significant
+difference between the income of men and women. However, a significant
+p-value does not by itself means that the difference is important or
+meaningful - we also need to interpret the effect size
+(\protect\hyperlink{ref-field2012discovering}{Field, Miles, and Field
+2012, 57}). If we take a look at the effect size (\(\beta_1\)), it has a
+value of approx -5,068. Thus according to the model, women in average
+earns 5,068 pounds a year less than men. That seems quite substantial as
+the average income in our sample is 16,892 pounds a year (See Table 2).
+Based on our analysis, we therefore accept our alternative hypothesis -
+that being a women rather than a man has a significant negative effect
+in your income.
 
-\hypertarget{check-for-heteroscedasticity}{%
-\subsection{Check for
-Heteroscedasticity}\label{check-for-heteroscedasticity}}
+In model, where we include our control variables, we see that there is
+trade union membership and being a supervisor has a significant positive
+effect on income, whereas age and to some extent also having a
+homosexual orientation rather than a heterosexual orientation have a
+significant negative effect on income. However, the effect of gender is
+independent of religion, sexual orientation, constitutional view, trade
+union membership, being a supervisor, and age, as including these
+control variables into the regression does not render the effect of
+gender on income insignificant. If we compare the model with and without
+control variables, we see that both R\^{}2 and adjusted R\^{}2 is
+increased with indicates that including the control variables does
+indeed yield a better fit of data.
 
-Here comes a check for heteroscedasticity.
+Before concluding on our empirical results, it is important to consider
+how reliable our regression model is. One relevant concern of our
+analysis is the influence of outliers, i.e.~very influential data points
+(\protect\hyperlink{ref-fogarty2018quantitative}{Fogarty 2018, 221--22};
+\protect\hyperlink{ref-field2012discovering}{Field, Miles, and Field
+2012, 190}). As identified in the {[}Data and Methods{]} section, the
+dependent variables seems to have a data points with incomes that are
+very much higher. Most respondents have an income around 17,000 pounds a
+year, while a few respondents have a yearly income around more than
+60,000 pounds. It is beyond the scope of this report to examine whether
+these data points are in fact significant outliers, but it is important
+to notice when interpreting the results.
+
+Another concern to our model is heteroscedasticity, i.e.~whether there
+is not a constant variance of residuals on the levels of the dependent
+variable, income (\protect\hyperlink{ref-field2012discovering}{Field,
+Miles, and Field 2012, 272}). In the plot below, we visualize the fitted
+values with the residuals to see if the variances is constant along the
+x-axis. Below the plot is also shown the results of a Breusch-Pagan test
+to more formally test to heteroscedasticity
+(\protect\hyperlink{ref-fogarty2018quantitative}{Fogarty 2018, 228}).
 
 \begin{figure}[H]
 
@@ -425,16 +552,53 @@ Here comes a check for heteroscedasticity.
 \caption{Scatterplot of Fitted Values and Residuals}\label{fig:unnamed-chunk-4}
 \end{figure}
 
-\hypertarget{reliability-and-validity}{%
-\subsection{Reliability and Validity}\label{reliability-and-validity}}
-
-Reliability and validity
-(\protect\hyperlink{ref-bryman2016social}{Bryman 2016, 41}) Internal and
-external validity (\protect\hyperlink{ref-bryman2016social}{Bryman 2016,
-41--42})
+Unfortunately, the plot shows that the variance seem to increase for
+higher values of our dependent variables, income, and the Breusch-Pagan
+test also suggests that there is heteroscedasticity as the p-value is
+lower than 0.001. One solution to this problem could be to re-estimate
+our regression model with robust standard errors, but that it has not
+been done for this report
+(\protect\hyperlink{ref-fogarty2018quantitative}{Fogarty 2018, 229}).
 
 \hypertarget{conclusion}{%
 \section{Conclusion}\label{conclusion}}
+
+Based on Northern Ireland as a historical case, this report has examined
+the gender pay gap in the contemporary society of Northern Ireland.
+Previous research has suggested that inclusion of statements about
+gender equality does not necessarily trickle down into the everyday
+practices, and this report therefore sought to examine this causal
+relation empirically. The analysis tackles the research question:
+\emph{Does gender affect income in contemporary Northern Ireland?} with
+the alternative hypothesis that being a woman rather than a man affects
+a lower income.
+
+Using a survey-based research design, we employed a multivariate linear
+regression analysis to answer this question. Our analysis showed that
+there is indeed a gender pay gap in contemporary Northern Ireland. We
+found that being a woman compared to a man resulted in average of an
+approx. 5000 pounds lower yearly income - independent of factors such as
+trade union membership, being a supervisor, age and more. Thus, our
+analysis supports the arguments that gender affects income rooted in
+discriminatory practices as theory suggests.
+
+However, there are also limitations to our study that it is important to
+take into concern. Firstly, there might be a few influential data points
+- so-called outliers - that drives the effect to be larger than the
+general trend. Secondly, we identified heteroscedasticity in our model,
+and especially large incomes seems to have larger residuals. These are
+primarily limitations of the reliability of the study, since it concerns
+the model and methodological choices
+(\protect\hyperlink{ref-bryman2016social}{Bryman 2016, 41}). If these
+results can be reproduced with a model with robust standard errors or
+after a check for outliers, it would increase the reliability of our
+findings. Another points of discussion is the validity of our findings,
+and here there is mostly the question of external validity as our sample
+is reduced significantly during the data-cleaning process
+(\protect\hyperlink{ref-bryman2016social}{Bryman 2016, 41--42}). A
+further improvement here could have been to directly analyze if the
+respondents in our data are representative compared to the general
+population of Northern Ireland.
 
 \pagebreak
 
@@ -479,6 +643,11 @@ Referendums in Northern Ireland and the Republic of Ireland.''} In
 Smith, 247--65. Cham: Springer International Publishing.
 \url{https://doi.org/10.1007/978-3-030-55803-1_12}.
 
+\leavevmode\vadjust pre{\hypertarget{ref-unger1993sex}{}}%
+Unger, Rhoda K, and Mary Crawford. 1993. {``Sex and Gender---the
+Troubled Relationship Between Terms and Concepts.''} \emph{Psychological
+Science} 4 (2): 122--24.
+
 \end{CSLReferences}
 
 \pagebreak
@@ -492,7 +661,7 @@ Smith, 247--65. Cham: Springer International Publishing.
 
 }
 
-\caption{Barplot of Sex}\label{fig:unnamed-chunk-5}
+\caption{Bar plot of Gender}\label{fig:unnamed-chunk-5}
 \end{figure}
 
 \begin{figure}[H]
@@ -501,7 +670,7 @@ Smith, 247--65. Cham: Springer International Publishing.
 
 }
 
-\caption{Barplot of Religion}\label{fig:unnamed-chunk-6}
+\caption{Bar plot of Religion}\label{fig:unnamed-chunk-6}
 \end{figure}
 
 \begin{figure}[H]
@@ -510,7 +679,7 @@ Smith, 247--65. Cham: Springer International Publishing.
 
 }
 
-\caption{Barplot of Sexual Orientation}\label{fig:unnamed-chunk-7}
+\caption{Bar plot of Sexual Orientation}\label{fig:unnamed-chunk-7}
 \end{figure}
 
 \begin{figure}[H]
@@ -519,7 +688,7 @@ Smith, 247--65. Cham: Springer International Publishing.
 
 }
 
-\caption{Barplot of Constitutional View}\label{fig:unnamed-chunk-8}
+\caption{Bar plot of Constitutional View}\label{fig:unnamed-chunk-8}
 \end{figure}
 
 \begin{figure}[H]
@@ -528,7 +697,7 @@ Smith, 247--65. Cham: Springer International Publishing.
 
 }
 
-\caption{Barplot of Trade union membership}\label{fig:unnamed-chunk-9}
+\caption{Bar plot of Trade union membership}\label{fig:unnamed-chunk-9}
 \end{figure}
 
 \begin{figure}[H]
@@ -537,7 +706,7 @@ Smith, 247--65. Cham: Springer International Publishing.
 
 }
 
-\caption{Barplot of Supervisor}\label{fig:unnamed-chunk-10}
+\caption{Bar plot of Supervisor}\label{fig:unnamed-chunk-10}
 \end{figure}
 
 \begin{figure}[H]

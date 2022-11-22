@@ -17,7 +17,26 @@ outcome_var_plot <- function(){
     guides(color = "none", fill = guide_legend(override.aes = list(linetype = c("solid", "dashed")))) +
     labs(
       fill='',
-      x='Sex: Female (ref.: Male)',
+      x='Gender: Female (ref.: Male)',
+      y="Annual Personal Income (GBP)",
+      caption="*Note*: <br> The points are jittered on the x-axis for the purpose of visualization. <br> There are only two categories for this question."
+    ) +
+    theme_mls() + theme(
+      legend.position = "bottom",
+      plot.caption = element_markdown(hjust = 0)
+    )
+  p
+}
+
+
+rsuper_plot <- function(){
+  p <- ggplot(nilt, aes(x = rsex, y = persinc2, group=rsuper, color=rsuper)) +
+    geom_point(position = "jitter") +
+    geom_smooth(method="lm") +
+    theme_mls() +
+    labs(
+      color='Supervisor',
+      x='Gender: Female (ref.: Male)',
       y="Annual Personal Income (GBP)",
       caption="*Note*: <br> The points are jittered on the x-axis for the purpose of visualization. <br> There are only two categories for this question."
     ) +
@@ -68,7 +87,7 @@ sampling_table_categorical <- function(){
     temp,
     vars = c("rsex","religcat","orient","uninatid","tunionsa","rsuper"),
     labels = c(
-      'Sex',
+      'Gender',
       'Religion',
       'Sexual Orientation',
       'Constitutional View',
