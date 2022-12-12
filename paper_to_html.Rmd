@@ -9,14 +9,14 @@ subtitle: |
   | Number of words: 2747
   | `r # maybe for word count: RmdWords("paper.Rmd")$num_words`
 output:
-  pdf_document:
-    keep_tex: yes
-    latex_engine: pdflatex
-    number_sections: yes
   html_document: 
     number_sections: yes
     toc: true
     toc_depth: 2
+  pdf_document:
+    keep_tex: yes
+    latex_engine: pdflatex
+    number_sections: yes
 header-includes:
 - \usepackage{amsmath} # format math stuff
 - \usepackage{booktabs} # makes table nicer
@@ -81,8 +81,8 @@ Our sample of analysis consists of data from the Northern Ireland Life and Times
 
 <!-- TC:ignore -->
 ```{r echo = FALSE, results='asis'}
-sampling_table_categorical("latex")
-sampling_table_numerical("latex")
+sampling_table_categorical("html")
+sampling_table_numerical("html")
 ```
 <!-- TC:endignore -->
 
@@ -131,7 +131,7 @@ This report examines the question of whether gender affect income in contemporar
 
 <!-- TC:ignore -->
 ```{r, echo=FALSE, results='asis'}
-source("scripts/regression.R")
+source("scripts/regression_to_html.R")
 ```
 <!-- TC:endignore -->
 
@@ -230,5 +230,6 @@ numeric_vars_plot(nilt$rage, label='Age')
 numeric_vars_plot(nilt$persinc2, label='Income')
 ```
 <!-- TC:endignore -->
+
 
 

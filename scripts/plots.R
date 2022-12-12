@@ -77,7 +77,7 @@ hetero_plot <- function(){
 }
 
 
-sampling_table_categorical <- function(){
+sampling_table_categorical <- function(pref_format){
   subset <- nilt %>% mutate(dataset = "Cleaned Sample")
   full <- nilt_full %>% mutate(dataset = "Full Sample")
   temp <- bind_rows(subset, full)
@@ -103,7 +103,7 @@ sampling_table_categorical <- function(){
 
   knitr::kable(
     out_table,
-    format = "latex",
+    format = pref_format,
     booktabs = TRUE,
     caption = "Descriptive Statistics for Cleaned and Full Sample (Categorical Variables)"
   ) %>%
@@ -113,7 +113,7 @@ sampling_table_categorical <- function(){
 }
 
 
-sampling_table_numerical <- function(){
+sampling_table_numerical <- function(pref_format){
   subset <- nilt %>% mutate(dataset = "Cleaned Sample")
   full <- nilt_full %>% mutate(dataset = "Full Sample")
   temp <- bind_rows(subset, full)
@@ -135,7 +135,7 @@ sampling_table_numerical <- function(){
 
   knitr::kable(
     out_table,
-    format = "latex",
+    format = pref_format,
     booktabs = TRUE,
     caption = "Descriptive Statistics for Cleaned and Full Sample (Numerical Variables)"
   ) %>%
