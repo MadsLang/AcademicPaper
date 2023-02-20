@@ -1,12 +1,14 @@
 ---
-title: 'Assignment 2: Interpreting Quantitative Findings'
+title: 'More than Likes: A bla bla of bla bla with bla bla'
 subtitle: |
   | 
-  | University of Glasgow
+  | University of Copenhagen
   | `r source("scripts/utils.R")`
-  | Student ID: 2819052
-  | Course: Quantitative Methods in the Social Sciences
-  | Number of words: 2747
+  | Student IDs:
+  | XXXxxx
+  | XXXxxx
+  | Master's Thesis
+  | Number of characters: xxxxxxxxx
   | `r # maybe for word count: RmdWords("paper.Rmd")$num_words`
 output:
   pdf_document:
@@ -55,79 +57,20 @@ source("scripts/config.R")
 <!-- Word count: approx. 400  -->
 <!-- Word count now: 426  -->
 
-\doublespacing <!-- OBS: We use double spacing here. Could also be changed to \onehalfspacing -->
+\onehalfspacing <!-- OBS: We use double spacing here. Could also be changed to \onehalfspacing -->
 
-In 1998, the Good Friday/Belfast Agreement was signed and later validated by the voters, and this agreement marked a new era of hope towards peace, equality, and inclusion in Northern Ireland [@galligan2013gender]. The main focus on the agreement and referendum was obviously to stop the violent conflict and seek peace, but a part of the agreement also emphasized an equality agenda [@Hayward2021]. Thus, the agreement also marked the first Northern Irish formal recognition of women's rights to political inclusion [@galligan2013gender]. However, a formal recognition does not necessarily imply that gender equality trickles down into societal norms and practices. Therefore, this report examines the contemporary state of women's equality in Northern Ireland. 
 
-Perhaps, the most central concept within gender equality is the *gender pay gap*. Disparities in income is an important indicator for gender equality, because it has social, economic, and physiological consequences [@bishu2017gender]. Research on this area have identified several factors that seems to influence a gender pay gap. One such factor can be inequality in access to workplace authority, where women are denied manager or supervisor position although there were equally qualified [@bishu2017gender]. Other factors can be discrimination in hiring or promotion processes, but also lack of gender representation can avoid minorities to even apply for a job or promotion [@bishu2017gender]. 
-
-In order to examine the current gender equality in Northern Ireland, we therefore focus on the gender pay gap in Northern Ireland. We ask the following research question: *Does gender affect income in contemporary Northern Ireland?* We employ a deductive approach, where we first formulate a hypothesis and subsequently examine it empirically [@bryman2016social 33]. Therefore, our analysis consider the following null hypothesis (H~0~) and alternative hypothesis (H~A~):
-
-* H~0~: Being a woman or man does not affect your income.
-* H~A~: Being a woman rather than a man affects a lower income. 
- 
-The causal relationship that we examine is thus a negative relationship. Although, we call this relationship causal, it is important to clarify that I do not imply that there is anything biological or deterministic that reduce women's income in general. Rather, the causal link is interpreted as a result of the societal discriminatory practices explained in the previous paragraph. To make a convincing inquiry of this causal relationship, we must also control for a number of other factors related to income and gender. This is important to make sure that our analysis do not simply show a spurious correlation as it could in fact be another factor that influences both gender and income. These control variables are introduced in [Data and Method]. 
 
 \pagebreak
 # Data and Method
-<!-- Word count: approx. 800 -->
-<!-- Word count: approx. 1158 -->
 
-The research design of this analysis is a cross-sectional design [@bryman2016social 53]. This means that the data for analysis is collected at a single point in time and consists of a sample of respondents from which we seek to infer to a general population of Northern Ireland [@field2012discovering 36]. This section describes this sample and how the data was collected, and then subsequently the operationalized variables to examine our research hypothesis are described. 
-
-## Sample and Data Collection
-
-Our sample of analysis consists of data from the Northern Ireland Life and Times Survey (NILT). The data have been collected every year since 1998, but this analysis uses the survey from 2012 [@ark_2012]. The respondents for the NILT survey was chosen from a systematic random sample of addresses. From this sample of 2126 addresses, 1204 questionnaires were fully completed using partly face-to-face- and self-completion questionnaires [@ark_2012]. Our sample of analysis is further reduced as not all respondents have answered our variables of interest, and we are therefore not able to include those respondents in our analysis. In the tables below, we present descriptive statistics for our variables of interest in both the full NILT sample and our sample of analysis. The first tables shows the categorical variables, where a frequency distribution are shown [@fogarty2018quantitative 88]. The second table shows the numerical variables, where we have calculated the mean and standard deviation [@fogarty2018quantitative 95]. For a full visualization of all variables included in the analysis, see [Appendix]. 
-
-<!-- TC:ignore -->
-```{r echo = FALSE, results='asis'}
-sampling_table_categorical("latex")
-sampling_table_numerical("latex")
-```
-<!-- TC:endignore -->
-
-As the table shows, our sample is significantly reduced by removing missing values - from 1204 observations to 675 observations. In the table with categorical variables, we conduct a Chi-squared test to check if there is independence between the samples or not, i.e. whether the frequency distribution is significantly different [@fogarty2018quantitative 176]. For the numerical variables, we conduct an Analysis of Variances (ANOVA) to test whether the means in the two samples are significantly different [@field2012discovering 399ff]. For the categorical variables, we see that for the test of trade union membership, the test value is 9.162, which is significantly different from 0 (with a p-value less than 0.01). This indicates that the frequency distribution in our sample is significantly different from the full NILT sample. There is a larger share (44.6 %) of members of a trade union after removing missing values compared to only 37.3 % in the full NILT sample. Similarly, we see from the ANOVA that the test value (F) for age is significantly different from 0 (with a p-value less than 0.01) meaning that our sample is different from the full NILT sample in the age distribution. We can see that the mean age is only around 46 years compared to 49 years in the full NILT sample. These two findings are important to bear in mind, when we interpret our final conclusion as both age and trade union membership might be related to our dependent variable, income.  
-
-The systematic random sampling strategy in the NILT survey is an approach to make the sample representative of our population - in our case all inhabitants of Northern Ireland. It could be relevant to examine the demographic distribution in our sample against the general population of Northern Ireland, but unfortunately that is beyond the scope of this report. 
-
-## Dependent and Independent Variables
-
-In order to examine the research question empirically, we operationalize the concepts included in our hypothesis as measurable variables. As the questionnaire was formulated beforehand in the NILT 2012 survey, the data is a secondary source, as we have to find the questions that can represent our theoretical concepts. 
-
-The dependent variable or outcome that we want to explain in this analysis is income. Although income in itself is more concrete concept compared to other theoretical concepts in social science (such as e.g. "solidarity"), it can still be measured in many different ways. In this analysis, we measure income by the question: *What is your personal income before tax and national insurance contributions? (£ per year)*. It is thus a numeric, more specifically a ratio scale with a value of absolute zero - although it is quite uncommon to have a personal income of zero [@fogarty2018quantitative 56]. 
-
-The independent variable or explanatory variable of our analysis is gender. Gender is a much more complex concept, and there is a large discussion about the distinction between gender and sex, and the biological and cultural components of these [@unger1993sex]. Quantitative research have mostly been dominated by gender being measured as a binary division between male and female. Likewise, we are also limited to such a measurement of gender in the NILT 2012 survey. In this analysis, we therefore measure gender by a nominal, binary variable of either "male" or "female". 
-
-To consider the distribution of our dependent and independent variable, see the following scatter plot of income and gender. In the scatter plot, we also show the mean and median income for each group of gender by the solid and dashed lines. 
-
-<!-- TC:ignore -->
-```{r echo = FALSE, fig.cap="Scatterplot of Income and Gender"}
-outcome_var_plot()
-```
-<!-- TC:endignore -->
-
-There are several insights from this visualization. The vertical differences between the descriptive statistics, mean and median signifies that there is a general income difference between males and females, and that females in average have lower incomes than men. Initially, this suggests an acceptance of our alternative research hypothesis, but we will wait with any conclusion till the analysis, where we also control for other related factors. Another interesting insight is that the distribution of income seems to be slightly skewed. For both males and females, there are some respondents with a very high income compared to most other respondents. This can also noticed as there is a difference between the mean and the median for both groups. These respondents have such extreme high incomes that they might be outliers compared to the general trend, and we need to be aware of that in our analysis  [@fogarty2018quantitative 221-222]. 
-
-## Control Variables
-
-Theoretically, there are other characteristics than gender than might affect your income. Firstly, there are characteristics related to your work that might affect a higher salary that is not rooted in discriminatory practices. To make sure that an effect of gender is not just a result these factor, we find it relevant to include trade union membership and whether or not someone has a formal responsibility for supervising the work of other employees [@ark_2012]. Moreover, there can also be other characteristics that affect a lower income based in discriminatory practices that is not rooted upon one's gender. Therefore, we also include religion, sexual orientation, constitutional view, and age into our analysis as control variables. 
-
-## Method of Analysis
-
-To fully examine the relationship between our dependent and independent variable, we employ a multiple linear regression estimated with OLS [@fogarty2018quantitative 192ff]. Thus, we are also able to include the control variables to make the acceptance or decline of our hypothesis more convincing. The formula of the regression of our analysis is thus:
-\begin{align*}
-\hat income = \beta_0 + \beta_1*gender + \beta_2 * religion + \beta_3 * Sexual Orientation \\ + \beta_4 * Constitutional View +  \beta_5*Trade Union Membership + \beta_6*Supervisor + \varepsilon
-\end{align*}
-
-where the main parameter of interest is $\beta_1$ for gender. 
 
 
 \pagebreak 
 # Results and discussion
-<!-- Word count: approx. 1300 -->
-<!-- 735 -->
 
-This report examines the question of whether gender affect income in contemporary Northern Ireland. As described in the [Introduction], the analysis therefore seeks to accept whether the null hypothesis or the alternative hypothesis - that being a woman rather than a man affects a lower income. As described in the [Data and Method] section, our analysis consists of survey data, where our main variables are gender and personal income. To examine our hypothesis, the following table shows the results of two regressions. First, our model is shown as a bivariate regression excluding our control variables, and secondly our full model is shown including our control variables. 
+
+
 
 <!-- TC:ignore -->
 ```{r, echo=FALSE, results='asis'}
@@ -135,41 +78,11 @@ source("scripts/regression.R")
 ```
 <!-- TC:endignore -->
 
-The primary finding from the regression results is that the variable gender have an significant effect on income. We see that the p-value is less than 0.01. This indicates that there is indeed a significant difference between the income of men and women. However, a significant p-value does not by itself means that the difference is important or meaningful - we also need to interpret the effect size [@field2012discovering 57]. If we take a look at the effect size ($\beta_1$), it has a value of approx -5,068. Thus according to the model, women in average earns 5,068 pounds a year less than men. That seems quite substantial as the average income in our sample is 16,892 pounds a year (See Table 2). Based on our analysis, we therefore accept our alternative hypothesis - that being a woman rather than a man has a significant negative effect in your income. 
 
-In the model, where we include our control variables, we see that trade union membership and being a supervisor has a significant positive effect on income, whereas age and to some extent also having a homosexual orientation rather than a heterosexual orientation have a significant negative effect on income. However, the effect of gender is independent of religion, sexual orientation, constitutional view, trade union membership, being a supervisor, and age, as including these control variables into the regression does not render the effect of gender on income insignificant. If we compare the model with and without control variables, we see that both $R^2$ and adjusted $R^2$ is increased with indicates that including the control variables does indeed yield a better fit of data. 
-
-In this way, our empirical findings support the argument that there is still a gender pay gap in Northern Ireland. Our finding that the gap between men and women is independent of being a supervisor or not is particularly interesting. It suggests that the income gap between men and women exists for both, and the gender pay gap cannot only be explained by men more often being in leadership positions. In the following visualization, this finding can be seen clearly. 
-
-```{r echo = FALSE, fig.cap="Scatterplot of Income, Gender, and Supervisor"}
-rsuper_plot()
-```
-
-In the visualization, there is also shown two linear regression of gender on income, and we see that both slopes indicate a negative correlation - although the intercepts differ. 
-
-Before concluding on our empirical results, it is also important to consider how reliable our regression model is. One relevant concern of our analysis is the influence of outliers, i.e. very influential data points [@fogarty2018quantitative 221-222; @field2012discovering 190]. As identified in the [Data and Methods] section, the dependent variables seems to have a data points with incomes that are very much higher. Most respondents have an income around 17,000 pounds a year, while a few respondents have a yearly income around more than 60,000 pounds. It is beyond the scope of this report to examine whether these data points are in fact significant outliers, but it is important to notice when interpreting the results. 
-
-Another concern to our model is heteroscedasticity, i.e. whether there is not a constant variance of residuals on the levels of the dependent variable, income [@field2012discovering 272]. In the plot below, we visualize the fitted values with the residuals to see if the variances is constant along the x-axis. Below the plot is also shown the results of a Breusch-Pagan test to more formally test for heteroscedasticity [@fogarty2018quantitative 228]. 
-
-<!-- TC:ignore -->
-```{r echo = FALSE, fig.cap="Scatterplot of Fitted Values and Residuals"}
-hetero_plot()
-#model2 <-coeftest(model, vcov = vcovHC)
-```
-<!-- TC:endignore -->
-
-Unfortunately, the plot shows that the variance seem to increase for higher values of our dependent variables, income, and the Breusch-Pagan test also suggests that there is heteroscedasticity as the p-value is lower than 0.001. One solution to this problem could be to re-estimate our regression model with robust standard errors, but this has not been possible within the scope of this report [@fogarty2018quantitative 229]. 
 
 \pagebreak
 # Conclusion
-<!-- Word count: approx. 500 -->
-<!-- 361 -->
 
-Based on Northern Ireland as a historical case, this report has examined the gender pay gap in the contemporary society of Northern Ireland. Previous research has suggested that inclusion of statements about gender equality does not necessarily trickle down into the everyday practices, and this report therefore sought to examine this causal relation empirically. The analysis tackles the research question: *Does gender affect income in contemporary Northern Ireland?* with the alternative hypothesis that being a woman rather than a man affects a lower income. 
-
-Using a survey-based research design, we employed a multivariate linear regression analysis to answer this question. Our analysis showed that there is indeed a gender pay gap in contemporary Northern Ireland. We found that being a woman compared to a man resulted in average of an approx. 5000 pounds lower yearly income - independent of factors such as trade union membership, being a supervisor, age and more. Here, it is particularly interesting that the effect of gender on income is independent of having supervision, because it suggests that the gender inequality exists across having a leadership position or not. Thus, our analysis supports the arguments that gender affects income rooted in discriminatory practices as theory suggests. 
-
-However, there are also limitations to our study that it is important to take into concern. Firstly, there might be a few influential data points - so-called outliers - that drives the effect to be larger than the general trend. Secondly, we identified heteroscedasticity in our model, and especially large incomes seems to have larger residuals. These are primarily limitations of the reliability of the study, since it concerns the model and methodological choices [@bryman2016social 41]. If these results can be reproduced with a model with robust standard errors or after a check for outliers, it would increase the reliability of our findings. Another point of discussion is the validity of our findings, and here there is mostly the question of external validity as our sample is reduced significantly during the data-cleaning process [@bryman2016social 41-42]. A further improvement here could have been to directly analyze if the respondents in our data are representative compared to the general population of Northern Ireland. 
 
 \pagebreak
 
@@ -183,52 +96,6 @@ However, there are also limitations to our study that it is important to take in
 
 # Appendix
 
-<!-- TC:ignore -->
-```{r echo = FALSE, fig.cap="Bar plot of Gender"}
-control_vars_plot(nilt$rsex, label='Gender')
-```
-<!-- TC:endignore -->
 
-<!-- TC:ignore -->
-```{r echo = FALSE, fig.cap="Bar plot of Religion"}
-control_vars_plot(nilt$religcat, label='Religion')
-```
-<!-- TC:endignore -->
-
-<!-- TC:ignore -->
-```{r echo = FALSE, fig.cap="Bar plot of Sexual Orientation"}
-control_vars_plot(nilt$orient, label='Sexual Orientation')
-```
-<!-- TC:endignore -->
-
-<!-- TC:ignore -->
-```{r echo = FALSE, fig.cap="Bar plot of Constitutional View"}
-control_vars_plot(nilt$uninatid, label='Constitutional View')
-```
-<!-- TC:endignore -->
-
-<!-- TC:ignore -->
-```{r echo = FALSE, fig.cap="Bar plot of Trade union membership"}
-control_vars_plot(nilt$tunionsa, label='Trade union membership')
-```
-<!-- TC:endignore -->
-
-<!-- TC:ignore -->
-```{r echo = FALSE, fig.cap="Bar plot of Supervisor"}
-control_vars_plot(nilt$rsuper, label='Supervisor')
-```
-<!-- TC:endignore -->
-
-<!-- TC:ignore -->
-```{r echo = FALSE, fig.cap="Density plot of Age"}
-numeric_vars_plot(nilt$rage, label='Age')
-```
-<!-- TC:endignore -->
-
-<!-- TC:ignore -->
-```{r echo = FALSE, fig.cap="Density plot of Income"}
-numeric_vars_plot(nilt$persinc2, label='Income')
-```
-<!-- TC:endignore -->
 
 
