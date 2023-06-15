@@ -1,8 +1,10 @@
 
 theme_mls <- function(){
-  my_theme <- theme_light()  %+%
+  my_theme <- theme_light() +
     theme(
-      text = element_text(size=10, family="LM Roman 10")
+      text = element_text(size=10, family="LM Roman 10"),
+      axis.title.x = element_text(margin = margin(t = 20, r = 0, b = 0, l = 0)),
+      axis.title.y = element_text(margin = margin(t = 0, r = 20, b = 0, l = 0))
     )
 
   my_colors <- c("#242c44", "#e1287e", "#081693", "#f34f85", "#745399",
@@ -17,9 +19,13 @@ theme_mls <- function(){
   )
 }
 
+fixl <- function(x){
+  return(gsub("-", "\u00ad", x, fixed=TRUE))
+}
 
-library(stringr)
-library(tidyverse)
+every_nth = function(n) {
+  return(function(x) {x[c(TRUE, rep(FALSE, n - 1))]})
+}
 
 RmdWords <- function(file) {
 
@@ -50,4 +56,26 @@ RmdWords <- function(file) {
   return(list(num_words = word_count, num_char = char_count, word_list = file_string))
 }
 
+
+icc <- function(model){
+  # A small function to calculate ICC from a lme4 model.
+  # Dependencies: broom.mixed, dplyr, lme4
+
+  icc <- data.frame(broom.mixed::tidy(model, effects=c("ran_pars"))) %>%
+    mutate(variance = estimate^2) %>%
+    mutate(icc = variance / sum(variance)) %>%
+    filter(term == "sd__(Intercept)")
+  return(icc$icc)
+}
+
+
+std <- function(x) {
+  # Merlin's function to z-standardize
+
+  (x - mean(x, na.rm = TRUE)) / sd(x, na.rm = TRUE)
+}
+
+min_max_normalize <- function(m){
+  (m - min(m))/(max(m)-min(m))
+}
 
